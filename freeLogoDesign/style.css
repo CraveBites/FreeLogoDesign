@@ -1,0 +1,181 @@
+body {
+  background-color:white;
+}
+.head {
+  background-color:blue;
+  display:flex;
+  justify-content:space-evenly;
+ position:relative;
+height:60px;
+  width:700px;
+  text-align:center;
+  padding:0px, 0px, 20px, 30px;
+  border:400px;
+  border-radius:50px;
+  font-size:12px;
+  background-image: linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  box-shadow:8px 8px 11px grey;
+}
+.first{
+  border-bottom:solid;
+  border-bottom-color:white;
+  
+}
+h1{
+  position:relative;
+  
+  background-color:none;
+  font-family:monospace;
+  font-weight:normal;
+  color:white;
+  
+}
+h1:hover {
+  border-bottom: solid;
+  border-bottom-color:white;
+  transition:0.1s;
+}
+
+
+
+.foot {
+  background-color:white;
+  color:white;
+  font-size:31px;
+  text-align:center;
+  width:900px;
+  height:150px;
+  border-radius:50px;
+  box-shadow:8px 8px 11px white;
+}
+h2{
+  padding-top:30px;
+  font-family:sans-serif;
+  font-weight:normal;
+  padding-right:10px;
+  padding-left:10px;
+  color:#e669f7;
+}
+
+h3{
+  padding:10px;
+  background-image: linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  font-family:monospace;
+  font-weight:normal;
+  border-radius:50px;
+  box-shadow:8px 8px 11px grey;
+  color:white;
+  width:150px;
+  font-size:30px;
+}
+
+
+h3:hover {
+  width:200px;
+  transition:0.3s;
+}
+h3:active {
+  width:260px;
+}
+
+.logo{
+  height:100px;
+  width:200px;
+  position:absolute;
+  
+}
+.wave {
+  position:absolute;
+  bottom:1px;
+  height:250px;
+  width:1365px;
+  left:1px;
+}
+
+.mobile {
+  position:absolute;
+  opacity:1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:350px) {
+  body {
+    background-color:white;
+    
+  }
+
+.wave, .logo, .foot, .first, .head,  h3, h2, h1 {
+    opacity:10%;
+  height:1px;
+  width:1px;
+  }
+
+ h3{
+  padding:10px;
+  background-image: none;
+  font-family:monospace;
+  font-weight:normal;
+  box-shadow:8px 8px 11px white;
+  color:white;
+  width:150px;
+  font-size:30px;
+}
+
+
+h3:hover {
+  width:200px;
+  transition:0.3s;
+}
+h3:active {
+  width:260px;
+}
+.mobile {
+  text-align:center;
+  position:relative;
+  top:50px;
+  opacity:100%;
+  font-size:15px;
+  padding:10px;
+  font-family:sans-serif;
+  font-weight:normal;
+  border-radius:50px;
+  height:50%px;
+  width:100%px;
+  background-color:white;
+  border:solid 5px;
+  border-image-slice:1;
+
+  border-image-source:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  
+  
+}
+ h5 {
+   color:#e669f7;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

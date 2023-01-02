@@ -1,0 +1,129 @@
+h2 {
+  position:absolute;
+  color:white;
+  background-image:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  border-radius:50px;
+  left:50px;
+  top:9px;
+  width:100px;
+  text-align:center;
+  height:30px;
+  font-family:sans-serif;
+  font-weight:normal;
+  padding:10px;
+  box-shadow:8px 8px 11px grey;
+}
+
+h2:hover {
+  width:150px;
+  transition:0.2s;
+}
+
+h2:active {
+  width:200px;
+  transition:0.2s;
+}
+
+h1 {
+  text-align:center;
+  color:white;
+  font-family:sans-serif;
+  padding:20px;
+  font-weight:normal;
+  background-image:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  font-size:40px;
+  width:140px;
+  border-radius:50px;
+  box-shadow:8px 8px 11px grey;
+}
+
+p {
+  position:relative;
+  top:23px;
+  font-size:30px;
+  color:#e669f7;
+  font-family:sans-serif;
+}
+h3 {
+  font-family:sans-serif;
+  color:white;
+  font-weight:normal;
+  border-radius:50px;
+  width:170px;
+  padding:10px;
+  background-image:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  font-size:30px;
+  box-shadow:8px 8px 11px grey;
+}
+
+h3:hover {
+  width:200px;
+  transition:0.2s;
+}
+
+h3:active {
+  width:250px;
+  transition:0.2s;
+}
+
+.form {
+ width:400px;
+  height:280px;
+  border-radius:50px;
+  background-image:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  box-shadow:8px 8px 11px grey;
+}
+
+.name, .emailid {
+  position:relative;
+  top:20px;
+  border-style:hidden;
+  border-radius:50px;
+  font-size:14px;
+  height:30px;
+  text-align:center;
+  font-family:sans-serif;
+  font-weight:normal;
+}
+
+.question {
+  padding-top:15px;
+  position:relative;
+  top:40px;
+  width:350px;
+  height:167px;
+  border-radius:50px;
+  text-align:center;
+  font-size:14px;
+  font-family:sans-serif;
+  font-weight:normal;
+  border-style:none;
+}
+
+button {
+  position:relative;
+  color:white;
+  background-image:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  border-radius:50px;
+  border-style:hidden;
+  width:150px;
+  text-align:center;
+  height:70px;
+  font-family:sans-serif;
+  font-weight:normal;
+  padding:20px 20px 20px 20px;
+
+  box-shadow:8px 8px 11px grey;
+  top:80px;
+  font-size:25px;
+}
+
+button:hover {
+  width:190px;
+  transition:0.2s;
+}
+
+button:active {
+  width:240px;
+  transition:0.2s;
+}

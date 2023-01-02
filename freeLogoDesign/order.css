@@ -1,0 +1,125 @@
+h2 {
+  position:absolute;
+  color:white;
+  background-image:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  border-radius:50px;
+  left:50px;
+  width:100px;
+  text-align:center;
+  height:30px;
+  font-family:sans-serif;
+  font-weight:normal;
+  padding:10px;
+  box-shadow:8px 8px 11px grey;
+  
+}
+
+h2:hover {
+  width:150px;
+  transition:0.2s;
+}
+
+h2:active {
+  width:200px;
+  transition:0.2s;
+}
+
+
+h1 {
+  font-family:sans-serif;
+  color:#e669f7;
+  font-weight:normal;
+}
+
+.form {
+  background-image: linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  height:390px;
+  width:470px;
+  border-radius:50px;
+  font-family:sans-serif;
+  font-weight:normal;
+  color:#e669f7;
+  box-shadow:8px 8px 11px grey;
+}
+.placeholder {
+  border-radius:50px;
+  padding-top:30px;
+}
+
+.companyname {
+  font-size:17px;
+width:410px;
+  height:35px;
+  border-radius:50px;
+  border-style:hidden;
+  position:relative;
+  top:20px;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+.name {
+  
+font-size:17px;
+  height:35px;
+  border-radius:50px;
+  border-style:hidden;
+  position:relative;
+  font-family:sans-serif;
+  text-align:center;
+}
+
+.emailid {
+font-size:15px;
+  height:35px;
+  border-radius:50px;
+  border-style:hidden;
+  position:relative;
+  font-family:sans-serif;
+  text-align:center;
+}
+
+.companydesc {
+width:410px;
+  font-size:17px;
+  border-radius:50px;
+  border-style:hidden;
+  position:relative;
+  top:40px;
+  text-align:unset;
+  height:200px;
+  padding-top:10px;
+  font-family:sans-serif;
+}
+
+
+button {
+
+  position:relative;
+  color:white;
+  background-image:linear-gradient(to bottom right, #ff2ed9,#e669f7,#265bf7,#007cdb);
+  border-radius:50px;
+ top:90px;
+  width:150px;
+ border-style:hidden;
+  height:60px;
+  font-family:sans-serif;
+  font-weight:normal;
+  
+  font-size:25px;
+  box-shadow:8px 8px 11px grey;
+  text-align:center;
+  padding-bottom:20px;
+  padding-top:15px;
+
+}
+
+button:hover {
+  width:200px;
+  transition:0.2s;
+}
+
+button:active {
+  width:260px;
+  transition:0.2s;
+}
